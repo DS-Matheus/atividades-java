@@ -103,11 +103,21 @@ public class Main {
 
 //        Resolva esses exercícios utilizando os métodos da implementação LinkedList:
 
-//        Crie uma lista chamada notas2 e coloque todos os elementos da list Arraylist nessa nova lista:
+        System.out.println("\n* Crie uma lista chamada notas2 e coloque todos os elementos da list Arraylist nessa nova lista");
+        LinkedList<Double> notas2 = new LinkedList<>();
+        notas2.addAll(notas);
+//        Fazendo direto:
+//        LinkedList<Double> notas2 = new LinkedList<>(notas);
+        System.out.println(notas2);
 
-//        Mostre a primeira nota da nova lista sem removê-lo
+        System.out.println("\n* Mostre a primeira nota da nova lista sem removê-la");
+        System.out.println("Nota: " + notas2.getFirst());
+        System.out.println(notas2);
 
-//        Mostre a primeira nota da nova lista removendo-o
+        System.out.println("\n* Mostre a primeira nota da nova lista removendo-a");
+        System.out.println("Nota: " + notas2.getFirst());
+        notas2.removeFirst();
+        System.out.println(notas2);
 
     }
 }
