@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Lista1 {
     public static void main(String[] args) {
 
         System.out.println("* Crie uma lista e adicione as notas do aluno");
@@ -110,9 +110,11 @@ public class Main {
 //        LinkedList<Double> notas2 = new LinkedList<>(notas);
         System.out.println(notas2);
 
+
         System.out.println("\n* Mostre a primeira nota da nova lista sem removê-la");
         System.out.println("Nota: " + notas2.getFirst());
         System.out.println(notas2);
+
 
         System.out.println("\n* Mostre a primeira nota da nova lista removendo-a");
         System.out.println("Nota: " + notas2.getFirst());
