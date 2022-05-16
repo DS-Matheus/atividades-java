@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Lista3 {
@@ -19,7 +20,7 @@ public class Lista3 {
         classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como
         "Assassina". Caso contrário, ela será classificada como "Inocente".*/
 
-        ArrayList<String> arrayRespostas = new ArrayList<>();
+        List<String> arrayRespostas = new ArrayList<>();
 
         System.out.println("Responda o questionário com 's' ou 'n':");
         System.out.println("\nTelefonou para a vítima?");
