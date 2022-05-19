@@ -1,8 +1,10 @@
+package List.Lista3;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Lista3 {
+public class Main {
 
 
     public static void main(String[] args) {

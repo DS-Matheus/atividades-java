@@ -1,6 +1,8 @@
+package List.Lista2;
+
 import java.util.*;
 
-public class Lista1 {
+public class Main {
     public static void main(String[] args) {
 
         System.out.println("* Crie uma lista e adicione as notas do aluno");

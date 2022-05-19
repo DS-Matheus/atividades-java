@@ -1,6 +1,8 @@
+package Set.Lista6;
+
 import java.util.*;
 
-public class Lista6 {
+public class Main {
     public static void main(String[] args) {
 
 /*

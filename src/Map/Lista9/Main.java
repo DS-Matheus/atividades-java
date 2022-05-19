@@ -1,6 +1,8 @@
+package Map.Lista9;
+
 import java.util.*;
 
-public class Lista9 {
+public class Main {
     public static void main(String[] args) {
 
 /*          Dada os modelos dos carros e seus respectivos consumos na estrada, faça:

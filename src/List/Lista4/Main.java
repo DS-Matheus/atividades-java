@@ -1,19 +1,20 @@
+package List.Lista4;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-    public class Lista4 {
+    public class Main {
         public static void main(String[] args) {
 
 /*
                 Dadas as seguintes informações sobre meus gatos, crie uma lista
                 e ordene esta lista exibindo:
                 (nome - idade - cor);
-                Gato 1 = nome: Jon, idade: 18, cor: preto
-                Gato 2 = nome: Simba, idade: 6, cor: tigrado
-                Gato 3 = nome: Jon, idade: 12, cor: amarelo
+                ArrayList.Lista1.Lista4.Gato 1 = nome: Jon, idade: 18, cor: preto
+                ArrayList.Lista1.Lista4.Gato 2 = nome: Simba, idade: 6, cor: tigrado
+                ArrayList.Lista1.Lista4.Gato 3 = nome: Jon, idade: 12, cor: amarelo
 */
             List<Gato> listGatos = new ArrayList<>(){{
                 add(new Gato("Jon", 12, "preto"));
@@ -35,17 +36,17 @@ import java.util.List;
             System.out.println(listGatos);
 
             System.out.println("\n* Ordem Idade");
-//        Collections.sort(meusGatos, new ComparatorIdade());
+//        Collections.sort(meusGatos, new ArrayList.Lista1.Lista4.ComparatorIdade());
             listGatos.sort(new ComparatorIdade());
             System.out.println(listGatos);
 
             System.out.println("\n* Ordem cor");
-//        Collections.sort(meusGatos, new ComparatorCor());
+//        Collections.sort(meusGatos, new ArrayList.Lista1.Lista4.ComparatorCor());
             listGatos.sort(new ComparatorCor());
             System.out.println(listGatos);
 
             System.out.println("\n* Ordem Nome/Cor/Idade");
-//        Collections.sort(meusGatos, new ComparatorNomeCorIdade());
+//        Collections.sort(meusGatos, new ArrayList.Lista1.Lista4.ComparatorNomeCorIdade());
             listGatos.sort(new ComparatorNomeCorIdade());
             System.out.println(listGatos);
         }
@@ -76,7 +77,7 @@ import java.util.List;
 
         @Override
         public String toString() {
-            return "Gato: {" +
+            return "ArrayList.Lista1.Lista4.Gato: {" +
                     "nome='" + nome + '\'' +
                     ", idade=" + idade +
                     ", cor='" + cor + '\'' +

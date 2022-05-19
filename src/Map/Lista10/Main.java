@@ -1,14 +1,16 @@
+package Map.Lista10;
+
 import java.util.*;
 
-public class Lista10 {
+public class Main {
     public static void main(String[] args) {
 
 /*        Dadas as seguintes informações sobre meus livros favoritos e seus autores,
         crie um dicionário e ordene este dicionário:
-        exibindo (Nome Autor - Nome Livro);
-        Autor = Hawking, Stephen  - Livro = nome: Uma Breve História do Tempo. páginas: 256
-        Autor = Duhigg, Charles - Livro = nome: O Poder do Hábito, paginas: 408
-        Autor = Harari, Yuval Noah  - Livro = 21 Lições Para o Século 21, páginas: 432*/
+        exibindo (Nome Autor - Nome Map.Lista10.Lista10.Livro);
+        Autor = Hawking, Stephen  - Map.Lista10.Lista10.Livro = nome: Uma Breve História do Tempo. páginas: 256
+        Autor = Duhigg, Charles - Map.Lista10.Lista10.Livro = nome: O Poder do Hábito, paginas: 408
+        Autor = Harari, Yuval Noah  - Map.Lista10.Lista10.Livro = 21 Lições Para o Século 21, páginas: 432*/
 
         System.out.println("\n--\tOrdem aleatória\t--");
         Map<String, Livro> mapLivros = new HashMap<>(){{
@@ -85,7 +87,7 @@ class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" +
+        return "Map.Lista10.Lista10.Livro{" +
                 "titulo='" + titulo + '\'' +
                 ", qtdPaginas=" + qtdPaginas +
                 '}';

@@ -1,6 +1,8 @@
+package Set.Lista5;
+
 import java.util.*;
 
-public class Lista5 {
+public class Main {
     public static void main(String[] args) {
 
 //        Dada uma lista com 7 notas de um aluno [7, 8.5, 9.3, 5, 7, 0, 3.6], faça:

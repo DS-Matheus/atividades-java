@@ -1,14 +1,16 @@
+package Map.Lista11;
+
 import java.util.*;
 
-public class Lista11 {
+public class Main {
     public static void main(String[] args) {
 
         /*
         Dada a população estimada de alguns estados do nordeste brasileiro, faça:
-        Estado = PE - população = 9.616.621
-        Estado = AL - população = 3.351.543
-        Estado = CE - população  = 9.187.103
-        Estado = RN - população = 3.534.265
+        Map.Lista11.Estado = PE - população = 9.616.621
+        Map.Lista11.Estado = AL - população = 3.351.543
+        Map.Lista11.Estado = CE - população  = 9.187.103
+        Map.Lista11.Estado = RN - população = 3.534.265
         */
 
         System.out.println("\n* Crie um dicionário que relacione os estados e suas respectivas populações: ");
@@ -155,7 +157,7 @@ class Estado{
 
     @Override
     public String toString() {
-        return "Estado{" +
+        return "Map.Lista11.Estado{" +
                 "uf='" + uf + '\'' +
                 ", populacao=" + populacao +
                 '}';
